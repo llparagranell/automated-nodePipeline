@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 cleanWs()  // optional: clean workspace before checkout
-                git branch: 'main', url: 'https://github.com/llparagranell/automated-nodePipeline.git'
+                git branch: 'master', url: 'https://github.com/llparagranell/automated-nodePipeline.git'
             }
         }
 
